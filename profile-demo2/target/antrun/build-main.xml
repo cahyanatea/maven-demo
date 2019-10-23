@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Using env.prod.properties</echo>
+  <copy file="src/main/resource/env.prod.properties" tofile="/home/okt19/NetBeansProjects/maven-demo/profile-demo2/target/classes/env.properties"/>
+</target>
+</project>
